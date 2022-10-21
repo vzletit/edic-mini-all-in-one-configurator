@@ -1,0 +1,1 @@
+# edic-mini-all-in-one-configurator
