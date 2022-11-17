@@ -1,0 +1,10 @@
+{
+    "configurations": [
+    {"name":"Debug Android Hermes - Experimental",
+    "request":"attach",
+    "type":"reactnativedirect",
+    "cwd":"${workspaceFolder}",
+    "port": 19000,
+    "platform":"android"}
+    ]
+}

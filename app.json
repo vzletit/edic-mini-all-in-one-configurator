@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "EDIC-mini All-in-One configurator",
+    "slug": "EM-config",
+    "plugins":[["./plugins/withDisableForcedDarkModeAndroid.js"]],
+    "version": "1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splashEM.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#00363a"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",        
+        "backgroundImage": "./assets/adaptive-icon_bgr.png"
+      },
+      "package": "com.vzletit.EMconfig"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1f864c66-89e8-478c-81da-47fcf2985c55"
+      }
+    }
+  }
+}
